@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>duqe - Oil & Gouache Paintings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header-artwork">
+        <div class="header-content">
+            <a href="#home" class="logo-text" onclick="scrollToSection(event, 'home')">duqe</a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#gallery" class="nav-link-text" onclick="scrollToSection(event, 'gallery')">Gallery</a></li>
+                    <li><a href="#about" class="nav-link-text" onclick="scrollToSection(event, 'about')">About</a></li>
+                    <li><a href="#contact" class="nav-link-text" onclick="scrollToSection(event, 'contact')">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1 class="artist-name-hero">duqe</h1>
+            <p class="hero-subtitle">oil | gouache painting</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section-spacing-large">
+        <div class="container-artwork">
+            <h2 class="section-title" style="text-align: center;">Gallery</h2>
+            <div class="gallery-grid">
+                <!-- Artwork 1 -->
+                <div class="gallery-item" onclick="openLightbox(0)">
+                    <img src="imagens/IMG_0073.png" alt="Composition I" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <div class="artwork-title">Composition I</div>
+                        <div class="artwork-medium">Oil on Canvas</div>
+                    </div>
+                </div>
+                
+                <!-- Artwork 2 -->
+                <div class="gallery-item" onclick="openLightbox(1)">
+                    <img src="https://customer-assets.emergentagent.com/job_creative-gallery-109/artifacts/ezz1hsj2_IMG_0102.png" alt="Composition II" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <div class="artwork-title">Always Late</div>
+                        <div class="artwork-medium">Oil on Canvas</div>
+                    </div>
+                </div>
+                
+                <!-- Artwork 3 -->
+                <div class="gallery-item" onclick="openLightbox(2)">
+                    <img src="https://customer-assets.emergentagent.com/job_creative-gallery-109/artifacts/q3ft03xj_IMG_0090.png" alt="Composition III" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <div class="artwork-title">The Sky and the Void at same time</div>
+                        <div class="artwork-medium">Oil on Canvas</div>
+                    </div>
+                </div>
+                
+                <!-- Artwork 4 -->
+                <div class="gallery-item" onclick="openLightbox(3)">
+                    <img src="https://customer-assets.emergentagent.com/job_creative-gallery-109/artifacts/2av4z864_IMG_0086.png" alt="Composition IV" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <div class="artwork-title">Composition IV</div>
+                        <div class="artwork-medium">Oil on Canvas</div>
+                    </div>
+                </div>
+                
+                <!-- Artwork 5 -->
+                <div class="gallery-item" onclick="openLightbox(4)">
+                    <img src="https://customer-assets.emergentagent.com/job_creative-gallery-109/artifacts/zxbpq4r5_IMG_0099.png" alt="Composition V" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <div class="artwork-title">Being Alone with Myself</div>
+                        <div class="artwork-medium">Oil on Canvas</div>
+                    </div>
+                </div>
+                 <!-- Artwork 6 -->
+                 <div class="gallery-item" onclick="openLightbox(5)">
+                    <img src="imagens/Scan_39.png" alt="Composition I" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <div class="artwork-title">Composition I</div>
+                        <div class="artwork-medium">Gouache</div>
+                    </div>
+                </div>
+                <!-- Artwork 7 -->
+                <div class="gallery-item" onclick="openLightbox(6)">
+                    <img src="imagens/Scan_6.png" alt="Composition II" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <div class="artwork-title">Composition II</div>
+                        <div class="artwork-medium">Gouache</div>
+                    </div>
+                </div>
+                <!-- Artwork 8 -->
+                <div class="gallery-item" onclick="openLightbox(7)">
+                    <img src="imagens/Scan_15.png" alt="Composition III" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <div class="artwork-title">Composition III</div>
+                        <div class="artwork-medium">Gouache</div>
+                    </div>
+                </div>
+                <!-- Artwork 9 -->
+                <div class="gallery-item" onclick="openLightbox(8)">
+                    <img src="imagens/Scan_31.png" alt="Composition IV" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <div class="artwork-title">Composition IV</div>
+                        <div class="artwork-medium">Gouache</div>
+                    </div>
+                </div>
+                <!-- Artwork 10 -->
+                <div class="gallery-item" onclick="openLightbox(9)">
+                    <img src="imagens/Scan_27.png" alt="Composition V" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <div class="artwork-title">Composition V</div>
+                        <div class="artwork-medium">Gouache</div>
+                    </div>
+                </div>
+                <!-- Artwork 11 -->
+                <div class="gallery-item" onclick="openLightbox(10)">
+                    <img src="imagens/Scan_29.png" alt="Composition VI" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <div class="artwork-title">Composition VI</div>
+                        <div class="artwork-medium">Gouache</div>
+                    </div>
+                </div>
+                <!-- Artwork 12 -->
+                <div class="gallery-item" onclick="openLightbox(11)">
+                    <img src="imagens/Scan_12.png" alt="Composition VII" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <div class="artwork-title">Composition VII</div>
+                        <div class="artwork-medium">Gouache</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-spacing-large">
+        <div class="container-artwork">
+            <div class="about-content">
+                <h2 class="section-title">duqe</h2>
+                <p class="body-text">
+                    My artistic journey explores the delicate interplay between color, figure, and emotion. 
+                    Working primarily with oil and gouache, I seek to capture moments of quiet contemplation 
+                    and raw feeling. Each piece is an exploration of the boundary between representation and 
+                    abstraction, where paint becomes a language of its own.
+                </p>
+                <p class="body-text" style="margin-top: 1.5rem;">
+                    Through layers of pigment and gesture, I invite viewers to pause, reflect, and discover 
+                    their own narrative within the canvas. Art, for me, is a conversation—one that begins 
+                    with the brush and continues with each person who stands before the work.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-spacing-large">
+        <div class="container-artwork">
+            <div class="contact-content">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="body-text" style="margin-bottom: 2rem;">
+                    Interested in purchasing artwork or commissioning a piece? I'd love to hear from you.
+                </p>
+                <a href="mailto:badducksclub25@gmail.com" class="contact-email">
+                    📧 badducksclub25@gmail.com
+                </a>
+                <div class="social-links">
+                    <a href="https://instagram.com/badducksclub" target="_blank" rel="noopener noreferrer" class="social-link" title="Instagram">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-artwork">
+        <div class="container-artwork">
+            <p class="footer-text">© 2024 duqe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox-overlay" onclick="closeLightbox()">
+        <div class="lightbox-content" onclick="event.stopPropagation()">
+            <img id="lightbox-img" src="" alt="" class="lightbox-image">
+            <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+            <button class="lightbox-nav lightbox-prev" onclick="prevImage()">‹</button>
+            <button class="lightbox-nav lightbox-next" onclick="nextImage()">›</button>
+            <div class="lightbox-info">
+                <div class="artwork-title" id="lightbox-title"></div>
+                <div class="artwork-medium" id="lightbox-medium"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
