@@ -1,64 +1,64 @@
 // Artwork data
 const artworks = [
     {
-        title: 'Composition I',
+        title: 'Never Fight Alone',
         medium: 'Oil on Canvas',
-        image: 'imagens/IMG_0073.png'
+        image: 'https://imgur.com/kZVcO3T'
     },
     {
         title: 'Always Late',
         medium: 'Oil on Canvas',
-        image: 'imagens/IMG_0102.png'
+        image: 'https://imgur.com/HlRfXh3'
     },
     {
         title: 'The Sky and the Void at the same time',
         medium: 'Oil on Canvas',
-        image: 'imagens/IMG_0090.png'
+        image: 'https://imgur.com/3vFyiEn'
     },
     {
-        title: 'Composition IV',
+        title: 'Plenty of People',
         medium: 'Oil on Canvas',
-        image: 'imagens/IMG_0086.png'
+        image: 'https://imgur.com/14th2CP'
     },
     {
         title: 'Being Alone with Myself',
         medium: 'Oil on Canvas',
-        image: 'imagens/IMG_0099.png'
+        image: 'https://imgur.com/14eghni'
     },
     {
         title: 'Composition I',
         medium: 'Gouache',
-        image: 'imagens/Scan_39.png'
+        image: 'https://imgur.com/Akpu6Z6'
     },
     {
         title: 'Composition II',
         medium: 'Gouache',
-        image: 'imagens/Scan_6.png'
+        image: 'https://imgur.com/OicRm7H'
     },
     {
         title: 'Composition III',
         medium: 'Gouache',
-        image: 'imagens/Scan_15.png'
+        image: 'https://imgur.com/giFjQVD'
     },
     {
         title: 'Composition IV',
         medium: 'Gouache',
-        image: 'imagens/Scan_31.png'
+        image: 'https://imgur.com/EKS4uaL'
     },
     {
         title: 'Composition V',
         medium: 'Gouache',
-        image: 'imagens/Scan_27.png'
+        image: 'https://imgur.com/HRtxwhY'
     },
     {
         title: 'Composition VI',
         medium: 'Gouache',
-        image: 'imagens/Scan_29.png'
+        image: 'https://imgur.com/G2vLXK4'
     },
     {
         title: 'Composition VII',
         medium: 'Gouache',
-        image: 'imagens/Scan_12.png'
+        image: 'https://imgur.com/XTahlBd'
     },
 ];
 
