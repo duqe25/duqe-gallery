@@ -3,62 +3,62 @@ const artworks = [
     {
         title: 'Never Fight Alone',
         medium: 'Oil on Canvas',
-        image: 'https://imgur.com/kZVcO3T'
+        image: 'https://i.imgur.com/kZVcO3T.jpeg'
     },
     {
         title: 'Always Late',
         medium: 'Oil on Canvas',
-        image: 'https://imgur.com/HlRfXh3'
+        image: 'https://i.imgur.com/HlRfXh3.jpeg'
     },
     {
         title: 'The Sky and the Void at the same time',
         medium: 'Oil on Canvas',
-        image: 'https://imgur.com/3vFyiEn'
+        image: 'https://i.imgur.com/3vFyiEn.jpeg'
     },
     {
         title: 'Plenty of People',
         medium: 'Oil on Canvas',
-        image: 'https://imgur.com/14th2CP'
+        image: 'https://i.imgur.com/14th2CP.jpeg'
     },
     {
         title: 'Being Alone with Myself',
         medium: 'Oil on Canvas',
-        image: 'https://imgur.com/14eghni'
+        image: 'https://i.imgur.com/14eghni.jpeg'
     },
     {
         title: 'Composition I',
         medium: 'Gouache',
-        image: 'https://imgur.com/Akpu6Z6'
+        image: 'https://i.imgur.com/Akpu6Z6.jpeg'
     },
     {
         title: 'Composition II',
         medium: 'Gouache',
-        image: 'https://imgur.com/OicRm7H'
+        image: 'https://i.imgur.com/OicRm7H.jpeg'
     },
     {
         title: 'Composition III',
         medium: 'Gouache',
-        image: 'https://imgur.com/giFjQVD'
+        image: 'https://i.imgur.com/giFjQVD.jpeg'
     },
     {
         title: 'Composition IV',
         medium: 'Gouache',
-        image: 'https://imgur.com/EKS4uaL'
+        image: 'https://i.imgur.com/EKS4uaL.jpeg'
     },
     {
         title: 'Composition V',
         medium: 'Gouache',
-        image: 'https://imgur.com/HRtxwhY'
+        image: 'https://i.imgur.com/HRtxwhY.jpeg'
     },
     {
         title: 'Composition VI',
         medium: 'Gouache',
-        image: 'https://imgur.com/G2vLXK4'
+        image: 'https://i.imgur.com/G2vLXK4.jpeg'
     },
     {
         title: 'Composition VII',
         medium: 'Gouache',
-        image: 'https://imgur.com/XTahlBd'
+        image: 'https://i.imgur.com/XTahlBd.jpeg'
     },
 ];
 
